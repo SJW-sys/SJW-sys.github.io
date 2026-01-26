@@ -1,9 +1,9 @@
-Hugo is one of the most popular open-source static site generators written in GO. With a focus on speed and flexibility. I will be using this so I can focus mostly on writing verses designing and maintaining a website from scratch.
+Hugo is one of the most popular open-source static site generators written in GO. With a focus on speed and flexibility. I will be using this so I can focus mostly on writing verses designing and maintaining a website from scratch. I tried Github's recommended jekyll, but found it did not suit my needs.
 
 ### Install on Debian via apt:
     sudo apt install hugo
 
-Hugo packages can be installed in various methods.
+Hugo packages can be installed in various methods to best suit you
 
 ### Setup With GitHub Pages:
 
@@ -18,23 +18,23 @@ Hugo packages can be installed in various methods.
     initialize repo:
         git init
 
-    Find your theme you want, then go to its repo, typically they will have a "install", some sort of git clone URL . Run that command, ie.
+    Find your theme you want, then go to its repository, typically they will have a "install", some sort of git clone URL . Run that command, ie.
         git submodule add https://github.com/clente/hugo-bearcub themes/hugo-bearcub
 
-    add theme to the hugo toml config, ie
+    Add theme to the hugo toml config file:
         echo 'theme = "hugo-bearcub"' >> hugo.toml
 
-    Generate content
+    Generate content:
         hugo new content content/blog/test.md
     
-    launch hugo locally to test
-        hugo server -D
+    launch hugo locally to test:
+        hugo server
 
-    modify hugo.toml config for site via your hugo.toml in /root dir for initial configuration, recommend using example site config as a base for most themes.
+    Modify hugo.toml config for site via your hugo.toml in /root dir for initial configuration, recommend using example site config as a base for most themes.
 
-    be sure to check your content directory for index files and setup for your web pages.
+    Be sure to check your content directory for index files and setup for your web pages.
 
-    push to your github when ready
+    Push to your github when ready.
 
 ### Resources:
 - hugo: https://gohugo.io/

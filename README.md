@@ -39,4 +39,5 @@ resources:
 - hugo install: https://gohugo.io/installation/linux/
 - hugo themes: https://themes.gohugo.io/themes
 - hugo theme (bearcub): https://github.com/clente/hugo-bearcub?tab=readme-ov-file
-- Hugo with Github Pages: https://www.testingwithmarie.com/posts/20241126-create-a-static-blog-with-hugo/
+- Hugo with Github Pages: https://gohugo.io/host-and-deploy/host-on-github-pages/
+- Blog I found the most useful to follow along with: https://www.testingwithmarie.com/posts/20241126-create-a-static-blog-with-hugo/

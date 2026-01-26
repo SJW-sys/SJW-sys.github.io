@@ -4,6 +4,7 @@ Install on Debian:
     sudo apt install hugo
 
 Setup With GitHub Pages:
+'''
     have hugo installed (see above section)
 
     start a new hugo site via command:
@@ -32,10 +33,10 @@ Setup With GitHub Pages:
     be sure to check your content directory for index files and setup for your web pages.
 
     push to your github when ready
-    
+'''
 
 resources:
-    hugo install: https://gohugo.io/installation/linux/
-    hugo themes: https://themes.gohugo.io/themes
-    hugo theme (bearcub): https://github.com/clente/hugo-bearcub?tab=readme-ov-file
-    Hugo with Github Pages: https://www.testingwithmarie.com/posts/20241126-create-a-static-blog-with-hugo/
+- hugo install: https://gohugo.io/installation/linux/
+- hugo themes: https://themes.gohugo.io/themes
+- hugo theme (bearcub): https://github.com/clente/hugo-bearcub?tab=readme-ov-file
+- Hugo with Github Pages: https://www.testingwithmarie.com/posts/20241126-create-a-static-blog-with-hugo/

@@ -34,7 +34,7 @@ Hugo is one of the most popular open-source static site generators written in GO
 
     push to your github when ready
 
-### resources:
+### Resources:
 - hugo install: https://gohugo.io/installation/linux/
 - hugo themes: https://themes.gohugo.io/themes
 - hugo theme (bearcub): https://github.com/clente/hugo-bearcub?tab=readme-ov-file

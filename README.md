@@ -1,7 +1,9 @@
 Hugo is one of the most popular open-source static site generators written in GO. With a focus on speed and flexibility. I will be using this so I can focus mostly on writing verses designing and maintaining a website from scratch.
 
-### Install on Debian:
+### Install on Debian via apt:
     sudo apt install hugo
+
+Hugo packages can be installed in various methods.
 
 ### Setup With GitHub Pages:
 
@@ -35,6 +37,7 @@ Hugo is one of the most popular open-source static site generators written in GO
     push to your github when ready
 
 ### Resources:
+- hugo: https://gohugo.io/
 - hugo install: https://gohugo.io/installation/linux/
 - hugo themes: https://themes.gohugo.io/themes
 - hugo theme (bearcub): https://github.com/clente/hugo-bearcub?tab=readme-ov-file

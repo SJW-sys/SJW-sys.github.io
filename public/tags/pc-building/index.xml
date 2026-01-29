@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Technical Wizardry</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Technical Wizardry</description>
+    <title>PC Building on Technical Wizardry</title>
+    <link>http://localhost:1313/tags/pc-building/</link>
+    <description>Recent content in PC Building on Technical Wizardry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Joe W (CC BY 4.0)</copyright>
     <lastBuildDate>Wed, 28 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pc-building/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Homelabbers Journey</title>
       <link>http://localhost:1313/blog/the_homelabbers_journey/</link>
@@ -20,7 +20,7 @@
 <p>I have a problem&hellip; I like to play and learn, so I take work home. Maybe not in the traditional sense of working over time, or calls after hours, but I love to put time into being educated and forming my own opinions of the IT landscape. My attention tends to get drawn to topics like IaC, automation, security and privacy. I suspect this learning also stems from never getting over playing in the backyard sand pit.</p>
 <p>My journey started back when I saved an old Dell Optiplex 7010 slated for e-waste around mid-2019. I had big plans. I was gonna learn and progress in my career with a homelab on that computer. It was a great jump point from windows/mac helpdesk and hardware repair. I learned how to deploy a LAMP stack, a Nextcloud instance, I messed with Linux, python, and remote terminal sessions via putty or ssh. Eventually I deployed pfSense with a 4-port intel NIC to learn networking since that, and Linux, interested me the most at the time. It quickly evolved into my home router (dicey I know, but I made out alright). Then I had no test space and I was firmly against virtualizing my pfSense instance. Turning my gaming PC into a frankenstein multiple use case testing ground was not appealing after some testing. Back to waiting until I could buy another device or get another unit from e-waste. When I finally got another device, the next month it was COVID (March 11,2020). My education path, and my homelab were things placed to the side as my weeks of supporting doctors and nurses went up to about 60hr+ work weeks for about 4 months straight. When the insane hours died down, it was hard to focus on anything at that point. The PFsense router was the only thing I had for quite some time, and I learned so much on it; VPNs, VLANs, DNS, DHCP, IDS/IPS, DNS SINKHOLES; you name it and I have most likely fiddled with it to a degree or actively run it. Eventually work really settled down, but COVID was still on and I found myself setting up the mini pc to run several game servers for a group of about 10 via esxi (VMWare) on a DMZ. Those game servers got us through COVID. When life outside picked up in a rush of freedom, the trusty pfSense Optiplex box still ran protecting my home the whole time.</p>
 <p>Then June 2024 rolled around, and I found myself with the resources and the desire to &lsquo;de-google&rsquo; and bought an off the shelf consumer NAS. That is the point I would say my homelab journey really kicked off. Since then I have gone through so many phases of my homelab, racking, de-racking, vm, containers, lxc, mini rack, deploying Proxmox VE 8 times, etc etc etc. Most homelabbers are always in some state of relative flux and can have vastly different setups (steamdecks, dozen of raspberry pis, everything running on old phones, enterprise gear, old e-waste, etc). Most of my journey and experiences I have documented, and paid the price when I did not. My documentation has currently settled into a digital PARA method file structure, with many of my drawings as draw.io and the note files as markdown in an Outline method. Many of the note files are messy and are a “more for me, not for you” level of presentable. At this point most of my Homelab has settled from this rapid learning and experimenting phase, and while I still test and play, it is a more structured approach with the half dozen or so hours I dedicate each week to maximize my time. I have many notes to cleanup and refactor, and over 30 unique active services (another 20+ behind me, another ~8 in testing, and more on the bench) run on almost a dozen vm&rsquo;s/lxc&rsquo;s hosted on several hybrid hypervisor host with a ten+ unique users. I also am learning IaC tools via structured learning and a mentor. Welcome to my journey.</p>
-<p>P.S. I do still have the Dell Optiplex 7010, not seeing much use since pfSense is now hosted on different hardware.</p>
+<p>P.S. I do still have the Dell Optiplex 7010, not seeing much use since pfSense is not hosted on different hardware.</p>
 ]]></content:encoded>
     </item>
   </channel>

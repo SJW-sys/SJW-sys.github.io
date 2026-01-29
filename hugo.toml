@@ -1,7 +1,7 @@
 # Basic config
 baseURL = "https://example.com"
 theme = "hugo-bearcub"
-copyright = "SJW (CC BY 4.0)"
+copyright = "Joe W (CC BY 4.0)"
 defaultContentLanguage = "en"
 
 # Generate a nice robots.txt for SEO

@@ -8,3 +8,5 @@ weight: 1
 >   – Arthur C. Clarke
 
 Welcome to a blog with my personal musing on Homelabbing, Privacy, Security, Automation, IaC, and my journey in the ever-changing IT landscape. Be prepared for all manner of posts, from how-to's to deep dives. Many posts are sent by carrier pigeon and arrive precisely when they mean to.
+
+###### Powered by 100% human thought and word magic, with a bit of git.

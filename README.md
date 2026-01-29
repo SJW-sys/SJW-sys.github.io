@@ -43,3 +43,6 @@ Hugo packages can be installed in various methods to best suit you
 - hugo theme (bearcub): https://github.com/clente/hugo-bearcub?tab=readme-ov-file
 - Hugo with Github Pages: https://gohugo.io/host-and-deploy/host-on-github-pages/
 - Blog I found the most useful to follow along with: https://www.testingwithmarie.com/posts/20241126-create-a-static-blog-with-hugo/
+
+## On AI:
+The site is administrated by myself, with code tweaks by me. Check above links for info about Hugo and the theme, 'bear cub' this project is build on. All of the brainstorming and editing is 100% me. I believe there is a line to protect on creative arts being best made by humans for humans.

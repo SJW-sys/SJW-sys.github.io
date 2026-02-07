@@ -25,7 +25,7 @@ Hugo packages can be installed in various methods to best suit you
         echo 'theme = "hugo-bearcub"' >> hugo.toml
 
     Generate content:
-        hugo new content content/blog/test.md
+        hugo new default content/blog/test.md
     
     launch hugo locally to test:
         hugo server

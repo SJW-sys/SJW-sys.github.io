@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Scripting on Technical Wizardry</title>
+    <link>http://localhost:1313/tags/scripting/</link>
+    <description>Recent content in Scripting on Technical Wizardry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Joe W (CC BY 4.0)</copyright>
+    <lastBuildDate>Thu, 19 Nov 2026 22:27:11 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/scripting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux Desktop And Deployment Scripts</title>
+      <link>http://localhost:1313/blog/linux_desktop_and_deployment_scripts/</link>
+      <pubDate>Thu, 19 Nov 2026 22:27:11 -0800</pubDate>
+      <guid>http://localhost:1313/blog/linux_desktop_and_deployment_scripts/</guid>
+      <description>Overview: I have been a long-time Windows user since Win95 on my grandparents’ dial-up, but change is constant. As of January 2025, I have been using Linux full time as my go-to. The world wants you to plug in via your phone. Maybe it’s my hand size, but mostly I think it’s the productivity that keeps me on a mouse and keyboard, and ideally, multiple screens. Combine this with the fact that I LOVE to learn and tinker, i have a rugged history with borking my OS.</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview:</h2>
+<p>I have been a long-time Windows user since Win95 on my grandparents’ dial-up, but change is constant. As of January 2025, I have been using Linux full time as my go-to. The world wants you to plug in via your phone. Maybe it’s my hand size, but mostly I think it’s the productivity that keeps me on a mouse and keyboard, and ideally, multiple screens. Combine this with the fact that I LOVE to learn and tinker, i have a rugged history with borking my OS. Combine that with the history of building PCs and being in deployment roles, I have always had some sort of deployment script for my personal standard of my daily drive, so no stress to flash an OS quickly. So let’s dive into my Linux history &amp; personal script for a desktop environment.</p>
+<h2 id="my-linux-history--distro">My Linux History &amp; Distro:</h2>
+<p>I have had several shoulder rubs with Linux over the years with attempting to use it as a daily driver (not to mention professional or homelab server experience), but mostly it’s always fallen off for me after a few weeks do to the complexity of gaming, Nvidia drivers, and many versions of common game anti-cheats not running on Linux. Gaming has always won out because of the connection it brings with friends, so Windows has been a constant companion. With the age of <a href="https://github.com/ValveSoftware/Proton">Proton Compatibility Layer</a> being driven by Valve and <a href="https://github.com/GloriousEggroll/proton-ge-custom">others</a>, the privacy concerns of <a href="https://www.privacyguides.org/en/os/windows/#privacy-notes">windows</a> and the general <a href="https://doctorow.medium.com/https-pluralistic-net-2024-04-04-teach-me-how-to-shruggie-kagi-caaa88c221f2">enshitification</a> of Windows OS, I have fully moved on.</p>
+<h4 id="primary-needs-from-my-distro-of-choice">Primary Needs from my distro of choice:</h4>
+<ul>
+<li>
+<p>While I love to play with tech and push it till it breaks, I want something that just works when I sit down to use it. So I need reliability, support (community and developer) and something that just works out of the box.</p>
+</li>
+<li>
+<p>Gaming Support</p>
+</li>
+<li>
+<p>Dual monitor and 144hz support</p>
+</li>
+<li>
+<p>Support or adjacent tooling that supports a few of my favorite programs. IE. VScode, Scrivener Tintero, Obsidian, Brave Browser, etc.</p>
+</li>
+</ul>
+<h4 id="distro-experience-for-daily-drivers">Distro Experience for daily drivers:</h4>
+<p><strong>Pop OS</strong> - 2025-01-01 till 2025-11-01 - overall went with this because of its “up and coming” hotness, wide recommendation for gaming, continuous support and development, lots of community support and similarity to Windows GUI. </p>
+<ul>
+<li>Why I moved on: I moved on less because of my issues, granted I had some, and more because of better longstanding history, support and reliability of my next distro. </li>
+</ul>
+<p><strong>Linux Mint</strong> - 2025-11-02 till 2026-01-20 - with this shift, both my machined (laptop &amp; desktop) have been shifted to this as my attention was grabbed by a dedicated Nvidia driver manager, more customization, better software updater (granted I have a habit of just doing it via cli) and better support for 144hz monitors.</p>
+<ul>
+<li>Why I moved on: Looking to try other systems and was interested in the gaming-first approach of CachyOS and wanted to dabble in an Arch Based Distro for experience.</li>
+</ul>
+<p><strong>CachyOS</strong> - 2026-01-20 till 2026-05-20 - I had just moved my main device over due to out of the box support for gaming and focus on an in-house proton fork for CachyOS, seeking some niche gaming needs of the time.</p>
+<ul>
+<li>Why I moved on: I use three monitors nowadays for gaming, which CachyOS does not support beyond two monitors and will crash and brick the OS into a nasty boot at that point in time. I enjoyed the native gaming support being buttery smooth.</li>
+</ul>
+<p><strong>Linux Mint</strong> - 2026-05-20 till now - All my household devices now run on Mint again, and I doubt I will change soon because of the massive support of the distro.</p>
+<h3 id="is-linux-worth-it-for-me">Is Linux worth it for me?</h3>
+<p>Very much so, I really would hate to move back to Windows for my personal device. My ability to customize and work with the under the hood with ease is very much empowering and a desire at this point. Most of all, it works with all my core needs, homelab management, development interest and rarely do I have to tinker with gaming.</p>
+<h2 id="the-script">The Script</h2>
+<h3 id="what-is-this-script">What is this script?</h3>
+<p>While the OS has changed, the methods and languages are different, and the code details have shifted, the core goal remains the same.</p>
+<ul>
+<li>Be as quick as possible to get a desktop environment running for me.</li>
+</ul>
+<h3 id="script-history">Script History:</h3>
+<p>This project, while new to GitHub, has been around for about 10 years, starting with some simple PowerShell scripting. It has grown as my needs grew, even existing as an unattended-install deployment for Windows machines for a while. But now it sits in its current iteration here: <a href="https://github.com/SJW-sys/DailyDriverSetup">https://github.com/SJW-sys/DailyDriverSetup</a></p>
+<p>This script used to be hard coded, but now sits as functions with a simple CLI interface to allow various “files-as-code” to be called and allow for robust flexibility in my deployments. Should I need something different, I simply edit the files. While I now rely on Ansible for servers, this is my quick and dirty method for server deployments in my home environments.</p>
+<p>There is much to still code and support future growth, but for now, it saves enough time as it is. It pushes all basic software and system requirements to meet my needs at a standard I am happy with.</p>
+<h3 id="scripting-forward">Scripting forward?</h3>
+<p>With AI OSs popping up and actively being adopted, along with the effects of FLOSS still being heavily affected by uncertainty in code, it’s hard to say where this will go. But for now, I see a lot of value in knowing how to code as human in the loop approaches to AI will be critical to ensure reliable clean code. This will remain as a project under my wing to keep my skills sharp, and my environments to my standards, and most important, quick to deploy.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
